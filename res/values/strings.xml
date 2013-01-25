@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SSL Example</string>
+    <string name="example_url">https://www.google.com</string>
+    <string name="server_cert_asset_name">master-cacert.pem</string>
+    <string name="client_cert_file_name">client-cert.p12</string>
+    <string name="client_cert_password">chariot</string>
+</resources>

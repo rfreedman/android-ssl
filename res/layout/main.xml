@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:drawable/screen_background_light"
+>
+    <ScrollView
+            android:id="@+id/mainTextScroller"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical"
+            android:fillViewport="true"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            >
+        <TextView
+                android:id="@+id/mainTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="10dp"
+                android:text=""
+                android:layout_weight="1.0"
+                android:background="@android:drawable/editbox_background"
+                android:textColor="#000"
+                />
+    </ScrollView>
+</LinearLayout>
+
