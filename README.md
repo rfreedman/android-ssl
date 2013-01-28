@@ -17,8 +17,3 @@ Be sure to keep the name the same.
 5. Update this project's /res/values/strings.xml file - change the value of example_url to point to your server.
 The default value is https://www.google.com - this will work, but doesn't really test this code, as Google's SSL
 cert is trusted, and Google doesn't require a client certificate.
-
-
-Warning: The CustomTrustManager presented here is only intended to illustrate the basic management of X509 certificates.
-It is not a robustly secure implementation, and is not intended to be used in production situations without further security enhancements.
-
